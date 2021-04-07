@@ -23,16 +23,6 @@ Exercise:
 
     The function should be named promisify.
 
-Higher difficulty bonus exercise:
-
-    Create a function promisifyAll which accepts an object
-    with functions and returns a new object where each of
-    the function is promisified.
-
-    Rewrite api creation accordingly:
-
-        const api = promisifyAll(oldApi);
-
 */
 
 interface User {
@@ -152,6 +142,3 @@ startTheApp().then(
         console.log(`Error: "${e.message}", but it's fine, sometimes errors are inevitable.`);
     }
 );
-
-// In case if you are stuck:
-// https://www.typescriptlang.org/docs/handbook/generics.html
